@@ -9,9 +9,21 @@
   bottom: 0;
   right: 0;
   font-size: 22px;
+  border-radius: 10px 0 0 10px;
   writing-mode: vertical-rl;
   text-orientation: upright;
   text-decoration: none;
   text-align: center;
   align-items: center;
+}
+
+.sidebar img{
+  width: 52px;
+  height: 52px;
+}
+
+@media screen and (max-width: 500px){
+  .sidebar{
+    display: none;
+  }
 }

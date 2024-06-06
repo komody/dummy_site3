@@ -1,5 +1,4 @@
 .faq{
-  display: none;
   margin: 0 auto;
   padding: 80px 0 110px;  
   max-width: 960px;
@@ -11,6 +10,7 @@
   font-family: 'Roboto', sans-serif;
   color: #FDD35C;
   font-style: italic;
+  margin-top: 18px;
   font-size: 60px;
   font-weight: 700;
 }
@@ -87,4 +87,79 @@
 
 .faq dl dd .faq_a_contents{
   margin-top: 2.5px;
+}
+
+@media screen and (max-width: 550px){
+  .faq{
+    margin: 0 auto;
+    padding: 0 0 40px;  
+    max-width: 960px;
+    width: 90%;
+    text-align: center;
+  }
+  .faq h2{
+    margin-top: 31px;
+    font-size: 26px;
+  }
+  .faq .sub_title{
+    font-size: 14px;
+    margin-left: 1px;
+    margin-top: 3px;
+  }
+  .faq .sub_title:before,
+  .faq .sub_title:after{
+    height: 0.67px;
+    width: 20px;
+  }
+  .faq .sub_title:before{
+    left: 11px;
+  }
+  .faq .sub_title:after{
+    right: 17px;
+  }
+
+  .faq dl{
+    margin-top: 25px;
+    margin-left: 22px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .faq dl dt{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+  }
+  .faq dl dt .faq_q{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3px;
+    margin-right: 11px;
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+  }
+  .faq dl dt .faq_q_contents{
+    width: 80%;
+    text-align: left;
+  }
+
+  .faq dl dd{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .faq dl dd .faq_a{
+    margin-right: 11px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+  }
+
 }
