@@ -4,6 +4,9 @@
   background-position: center;
   margin-top: -17px;
 }
+.freelance_polygon_mobile{
+  background-image: none;
+}
 
 .freelance_summit{
   margin: 0 auto 80px auto;
@@ -32,7 +35,7 @@
 }
 .freelance_summit .sub_title:before,
 .freelance_summit .sub_title:after{
-  background-color: #000;
+  background-color: #444545;
   content: "";
   display: inline-block;
   height: 1px;
@@ -62,4 +65,48 @@
   font-weight: 500;
 }
 
-@media screen and (max-width: 400px){}
+@media screen and (max-width: 600px){
+
+  .freelance_polygon{
+    background-image: none;
+  }
+  
+  .freelance_polygon_mobile{
+    background-image: url(../img/freelance_summit_polygon_mobile.svg);
+    background-size: unset;
+    background-position: unset;
+    margin-top: -27px;
+  }
+  .freelance_summit{
+    margin: 0 auto 10px auto;
+    padding: 40px 0 0;
+  }
+
+  .freelance_summit h2{
+    font-size: 26px;
+    margin-top: 13px;
+  }
+  .freelance_summit .sub_title{
+    font-size: 14px;
+  }
+  .freelance_summit .sub_title:before,
+  .freelance_summit .sub_title:after{
+    height: 0.67px;
+    width: 20px;
+  }
+  .freelance_summit .sub_title:before{
+    left: 17px;
+  }
+  .freelance_summit .sub_title:after{
+    right: 17px;
+  }
+  .freelance_summit .what_freelance_summit{
+    display: none;
+  }
+  .freelance_summit .freelance_summit_overview{
+    font-size: 16px;
+    margin: 21px auto 0 auto;
+    width: 300px;
+    line-height: 37px;
+  }
+}
