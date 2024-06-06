@@ -1,7 +1,6 @@
 .pick_up{
-  display: none;
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 55px 0;
   text-align: center;
   border-left: 50px solid #FDD35C;
   border-right: 50px solid #FDD35C;
@@ -18,6 +17,7 @@
 .pick_up .sub_title{
   padding: 0 50px;
   margin-top: 10px;
+  margin-left: -9px;
   font-size: 18px;
   display: inline-block;
   position: relative;
@@ -33,18 +33,106 @@
   width: 30px;
 }
 .pick_up .sub_title:before{
-  left: 0;
+  left: -10px;
 }
 .pick_up .sub_title:after{
-  right: 7px;
+  right: -8px;
 }
 
+.pick_up .pickup_list{
+  margin: 40px 0 -21px;
+}
+
+.pick_up .pickup_list .pickup_list_flex{
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pick_up .pickup_list .pickup_list_flex .oplan_l{
+  width: 30%;
+}
+.pick_up .pickup_list .pickup_list_flex .oplan_l img{
+  max-width: none;
+  width: 110px;
+  margin-top: 12px;
+  margin-left: -18px;
+}
+.pick_up .pickup_list .pickup_list_flex .oplan_r{
+  width: 70%;
+  text-align: left;
+  margin-top: -5px;
+  margin-left: 18px;
+}
+
+.pick_up .pickup_list .pickup_list_flex .pe_bank_l{
+  width: 30%;
+}
+
+.pick_up .pickup_list .pickup_list_flex .pe_bank_l img{
+  margin-top: 37px;
+  margin-left: -18px;
+}
+
+.pick_up .pickup_list .pickup_list_flex .pe_bank_r{
+  width: 70%;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+.pick_up .pickup_list .pickup_list_flex .boc_l{
+  width: 30%;
+}
+
+.pick_up .pickup_list .pickup_list_flex .boc_l img{
+  margin-top: -4px;
+  margin-left: -18px;
+}
+
+.pick_up .pickup_list .pickup_list_flex .boc_r{
+  width: 70%;
+  text-align: left;
+  margin-top: -3px;
+  margin-left: 18px;
+}
+.pick_up .pickup_list .pickup_list_flex .creaba_l{
+  width: 30%;
+}
+
+.pick_up .pickup_list .pickup_list_flex .creaba_l img{
+  margin-top: -5px;
+  margin-left: -18px;
+}
+
+.pick_up .pickup_list .pickup_list_flex .creaba_r{
+  width: 70%;
+  text-align: left;
+  margin-top: -9px;
+  margin-left: 18px;
+}
+.pick_up .pickup_list .pickup_list_flex .quar_l{
+  width: 30%;
+}
+
+.pick_up .pickup_list .pickup_list_flex .quar_l img{
+  margin-top: 21px;
+  margin-left: -2px;
+}
+
+.pick_up .pickup_list .pickup_list_flex .quar_r{
+  width: 70%;
+  text-align: left;
+  margin-top: 14px;
+  margin-left: 18px;
+}
+
+
 .about_exhibitors{
-  display: none;
+  background-image: url(../img/about_polygon.svg);
+  background-size: cover;
+  background-position: center;
   margin: 0 auto;
-  padding: 80px 0;
-  max-width: 960px;
-  width: 90%;
+  padding: 20px 0;
   text-align: center;
 }
 
@@ -59,6 +147,7 @@
 .about_exhibitors .sub_title{
   padding: 0 50px;
   margin-top: 10px;
+  margin-left: -7px;
   font-size: 18px;
   display: inline-block;
   position: relative;
@@ -74,10 +163,10 @@
   width: 30px;
 }
 .about_exhibitors .sub_title:before{
-  left: 0;
+  left: -31px;
 }
 .about_exhibitors .sub_title:after{
-  right: 7px;
+  right: -26px;
 }
 
 .about_exhibitors .company_list{
@@ -101,6 +190,171 @@
 .about_exhibitors .cautionary_note{
   text-align: right;
   margin-top: 26px;
+  margin-bottom: 45px;
   font-size: 20px;
   font-weight: 500;
+}
+
+@media screen and (max-width: 600px){
+  .pick_up{
+    padding: 40px 0;
+    font-size: 14px;
+    border-left: 10px solid #FDD35C;
+    border-right: 10px solid #FDD35C;
+  }
+
+  .pick_up h2{
+    font-size: 26px;
+  }
+  .pick_up .sub_title{
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 5px;
+  }
+  .pick_up .sub_title:before,
+  .pick_up .sub_title:after{
+    height: 0.67px;
+    width: 20px;
+  }
+  .pick_up .sub_title:before{
+    left: -6px;
+  }
+  .pick_up .sub_title:after{
+    right: -9px;
+  }
+  .pick_up .pickup_list{
+    margin: 21px 0 -21px;
+  }
+  .pick_up .pickup_list .pickup_list_flex{
+    margin: 10px 0;
+    flex-direction: column;
+  }
+
+  .pick_up .pickup_list .pickup_list_flex .oplan_l{
+    width: 100%;
+  }
+  .pick_up .pickup_list .pickup_list_flex .oplan_l img{
+    max-width: none;
+    width: 73px;
+    margin-top: 12px;
+    margin-left: -2px;
+  }
+  .pick_up .pickup_list .pickup_list_flex .oplan_r{
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: -2px;
+  }
+
+  .pick_up .pickup_list .pickup_list_flex .pe_bank_l{
+    width: 100%;
+  }
+
+  .pick_up .pickup_list .pickup_list_flex .pe_bank_l img{
+    width: 154px;
+    margin-top: 8px;
+    margin-left: -3px;
+  }
+
+  .pick_up .pickup_list .pickup_list_flex .pe_bank_r{
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 18px;
+  }
+  .pick_up .pickup_list .pickup_list_flex .boc_l{
+    width: 100%;
+  }
+
+  .pick_up .pickup_list .pickup_list_flex .boc_l img{
+    width: 177px;
+    margin-top: 51px;
+    margin-left: -4px;
+  }
+
+  .pick_up .pickup_list .pickup_list_flex .boc_r{
+    width: 100%;
+    text-align: left;
+    margin-top: 9px;
+    margin-left: -1px;
+  }
+  .pick_up .pickup_list .pickup_list_flex .creaba_l{
+    width: 100%;
+  }
+
+  .pick_up .pickup_list .pickup_list_flex .creaba_l img{
+    width: 124px;
+    margin-top: 10px;
+    margin-left: -1px;
+  }
+
+  .pick_up .pickup_list .pickup_list_flex .creaba_r{
+    width: 100%;
+    text-align: left;
+    margin-top: -1px;
+    margin-left: -4px;
+  }
+  .pick_up .pickup_list .pickup_list_flex .quar_l{
+    width: 100%;
+  }
+
+  .pick_up .pickup_list .pickup_list_flex .quar_l img{
+    margin-top: 21px;
+    margin-left: -2px;
+  }
+
+  .pick_up .pickup_list .pickup_list_flex .quar_r{
+    width: 100%;
+    text-align: left;
+    margin-top: 14px;
+    margin-left: 18px;
+  }
+
+  .about_exhibitors{
+    background-image: url(../img/about_polygon_mobile.svg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .about_exhibitors h2{
+    font-size: 26px;
+  }
+  .about_exhibitors .sub_title{
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 5px;
+  }
+  .about_exhibitors .sub_title:before,
+  .about_exhibitors .sub_title:after{
+    height: 0.67px;
+    width: 20px;
+  }
+  .about_exhibitors .sub_title:before{
+    left: -6px;
+  }
+  .about_exhibitors .sub_title:after{
+    right: -9px;
+  }
+
+  .about_exhibitors .company_list{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.0;
+  }
+
+  .about_exhibitors .company_list li{
+    width: 50%;
+  }
+  .about_exhibitors .company_list .company_list_right{
+    margin-left: 20px;
+  }
+
+
+  .about_exhibitors .cautionary_note{
+    font-size: 14px;
+  }
 }

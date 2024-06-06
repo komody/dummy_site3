@@ -1,6 +1,7 @@
 .time_schedule{
-  display: none;
   background-image: url(../img/time_schedule_background.png);
+  background-size: cover;
+  background-position: center;
   margin: 0 auto;
   padding: 40px 0;
   text-align: center;
@@ -10,20 +11,22 @@
   font-family: 'Roboto', sans-serif;
   color: #00A8F0;
   font-style: italic;
+  margin-top: 51px;
   font-size: 60px;
   font-weight: 700;
 }
 
 .time_schedule .sub_title{
   padding: 0 50px;
-  margin-top: 10px;
+  margin-top: 7px;
   font-size: 18px;
+  color: #FFF;
   display: inline-block;
   position: relative;
 }
 .time_schedule .sub_title:before,
 .time_schedule .sub_title:after{
-  background-color: #000;
+  background-color: #FFF;
   content: "";
   display: inline-block;
   height: 1px;
@@ -32,35 +35,173 @@
   width: 30px;
 }
 .time_schedule .sub_title:before{
-  left: 0;
+  left: -3px;
 }
 .time_schedule .sub_title:after{
-  right: 7px;
+  right: -6px;
 }
 
 .time_schedule .guest_list{
   max-width: 960px;
   width: 90%;
-  margin: 0 auto;
+  margin: 25px auto 127px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 55px;
 }
 
 .time_schedule .guest_ditail{
   background-color: rgba(241, 251, 255, 0.6);
+  width: 300px;
+  height: 254px;
   border-radius: 5px;
-  width: 33%;
-  margin: 0 auto;
+  padding: 0 20px;
+  margin: 30px auto 0;
   position: relative;
 }
 
+.time_schedule .guest_ditail_MC{
+  background-color: rgba(241, 251, 255, 0.6);
+  width: 300px;
+  height: 192px;
+  border-radius: 5px;
+  padding: 0 20px;
+  margin: 30px auto 0;
+  position: relative;
+}
+
+
 .time_schedule .ribbon{
   position: absolute;
-  left: 4px;
-  top: 10px;
+  left: -5px;
+  top: 8px;
 }
 
 .time_schedule .time{
+  top: 9px;
+  left: 5px;
+  font-weight: 700;
   position: absolute;
+}
+.time_schedule .MC{
+  top: 9px;
+  left: 20px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.time_schedule .guest_icon{
+  margin-top: 20px;
+}
+.time_schedule .guest_icon_MC{
+  margin-top: 20px;
+}
+.time_schedule .guest_icon_3{
+  margin-top: 30px;
+  width: 280px;
+  height: 125px;
+}
+.time_schedule .guest_icon_2{
+  margin-top: 30px;
+  height: 125px;
+}
+
+.time_schedule .guest_lecture{
+  font-weight: 700;
+  font-size: 20px;
+  color: #444545;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+@media screen and (max-width: 700px){
+  .time_schedule{
+    padding: 10px 0;
+  }
+
+  .time_schedule h2{
+    margin-top: 31px;
+    font-size: 26px;
+  }
+  .time_schedule .sub_title{
+    font-size: 14px;
+    margin-left: 8px;
+    margin-top: 5px;
+  }
+  .time_schedule .sub_title:before,
+  .time_schedule .sub_title:after{
+    height: 0.67px;
+    width: 20px;
+  }
+  .time_schedule .sub_title:before{
+    left: 11px;
+  }
+  .time_schedule .sub_title:after{
+    right: 17px;
+  }
+
+  .time_schedule .guest_ditail{
+    background-color: rgba(241, 251, 255, 0.6);
+    width: 354px;
+    height: 103px;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin: 10px auto 0;
+    position: relative;
+  }
+  .time_schedule .guest_ditail_MC{
+    background-color: rgba(241, 251, 255, 0.6);
+    width: 354px;
+    height: 103px;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin: 10px auto 0;
+    position: relative;
+  }
+
+  .time_schedule .time{
+    top: 9px;
+    left: 5px;
+    font-size: 14px;
+  }
+  .time_schedule .MC{
+    top: 9px;
+    left: 20px;
+    font-size: 14px;
+  }
+
+  .time_schedule .guest_ditail_flex{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;    
+  }
+
+  .time_schedule .guest_icon{
+    width: 87px;
+    margin-top: 10px;
+  }
+  .time_schedule .guest_icon_MC{
+    margin-top: 10px;
+    height: 89px;
+  }
+
+  .time_schedule .guest_icon_3{
+    margin-top: 10px;
+    width: 195px;
+    height: 74px;
+  }
+  .time_schedule .guest_icon_2{
+    margin-top: 10px;
+    width: 161px;
+    height: 82px;
+  }
+  .time_schedule .guest_lecture{
+    font-size: 16px;
+    color: #444545;
+    width: 60%;
+    height: 90px;
+    margin-top: 25px;
+  }
 }

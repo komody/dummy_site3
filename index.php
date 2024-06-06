@@ -175,60 +175,84 @@
   </section>
 
   <section class="pick_up">
-    <h2>Pick Up</h2>
-    <p class="sub_title">注目の企業</p>
-    <table>
-      <tr>
-        <th><img src="img/pickup_Logo-1.png" alt="#"></th>
-        <td><p>オープラン株式会社は「ITサービス」を軸に「人」と「グローバル」に向き合い日本を代表する企業になるべく2015年に産声をあげたベンチャー企業です。</p><a href="https://oplan.co.jp/">https://oplan.co.jp/</a></td>
-      </tr>
-      <tr>
-        <th><img src="img/pickup_Logo-2.png" alt="#"></th>
-        <td><p>ITフリーランスの仕事探しなら【PE-BANK】へ。Web・SE系を中心に毎月1,000件以上のご紹介。</p></td>
-      </tr>
-      <tr>
-        <th><img src="img/pickup_Logo-3.png" alt="#"></th>
-        <td><p>台湾の「食文化」の導入により、日本の飲食業をクリエイティブに。</p></td>
-      </tr>
-      <tr>
-        <th><img src="img/pickup_Logo-4.png" alt="#"></th>
-        <td><p>月額制システム開発チームレンタルSucSak(サクサク)を運営している東京新宿のシステム開発会社です。</p></td>
-      </tr>
-      <tr>
-        <th><img src="img/pickup_Logo-5.png" alt="#"></th>
-        <td><p>1000業種以上の圧倒的運用実績！リスティング、Facebook・TwitterなどのSNS広告もおまかせ。</p></td>
-      </tr>
-    </table>
+    <div class="wrapper">
+      <h2>Pick Up</h2>
+      <p class="sub_title">注目の企業</p>
+      <div class="pickup_list">
+        <div class="pickup_list_flex">
+          <div class="oplan_l">
+            <img src="img/pickup_Logo-1.png" alt="#">
+          </div>
+          <div class="oplan_r">
+            <p>オープラン株式会社は「ITサービス」を軸に「人」と「グローバル」に向き合い日本を代表する企業になるべく2015年に産声をあげたベンチャー企業です。</p>
+          </div>
+        </div>
+        <div class="pickup_list_flex">
+          <div class="pe_bank_l">
+            <img src="img/pickup_Logo-2.png" alt="#">
+          </div>
+          <div class="pe_bank_r">
+            <p>ITフリーランスの仕事探しなら【PE-BANK】へ。Web・SE系を中心に毎月1,000件以上のご紹介。</p>
+          </div>
+        </div>
+        <div class="pickup_list_flex">
+          <div class="boc_l">
+            <img src="img/pickup_Logo-3.png" alt="#">
+          </div>
+          <div class="boc_r">
+            <p>台湾の「食文化」の導入により、日本の飲食業をクリエイティブに。</p>
+          </div>
+        </div>
+        <div class="pickup_list_flex">
+          <div class="creaba_l">
+            <img src="img/pickup_Logo-4.png" alt="#">
+          </div>
+          <div class="creaba_r">
+            <p>月額制システム開発チームレンタルSucSak(サクサク)を運営している東京新宿のシステム開発会社です。</p>
+          </div>
+        </div>
+        <div class="pickup_list_flex">
+          <div class="quar_l">
+            <img src="img/pickup_Logo-5.png" alt="#">
+          </div>
+          <div class="quar_r">
+            <p>1000業種以上の圧倒的運用実績！リスティング、Facebook・TwitterなどのSNS広告もおまかせ。</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-
+    
   <section class="about_exhibitors">
-    <h2>About Exhibitors</h2>
-    <p>出展企業一覧</p>
-    <ul class="company_list">
-      <li>
-        オープラン株式会社<br>
-        株式会社ビズリンク<br>
-        株式会社カルテットコミュニケーションズ<br>
-        クリーヴァ株式会社<br>
-        株式会社グラントホープ<br>
-        Modis株式会社<br>
-        INTLOOP株式会社<br>
-        Langdemy株式会社<br>
-        BOCジャパン合同会社
-      </li>
-      <li class="company_list_right">
-        株式会社アユザック<br>
-        株式会社HandAid<br>
-        株式会社J-Proach<br>
-        ラーメン協会<br>
-        株式会社おウチdeお肉<br>
-        株式会社LifeCoach<br>
-        株式会社スポーツ＆ライフイノベーション<br>
-        株式会社iGO<br>
-        株式会社エドモンド
-      </li>
-    </ul>
-    <p class="cautionary_note">（順不同、一部企業のみ掲載）</p>
+    <div class="wrapper">
+      <h2>About Exhibitors</h2>
+      <p class="sub_title">出展企業一覧</p>
+      <ul class="company_list">
+        <li>
+          オープラン株式会社<br>
+          株式会社ビズリンク<br>
+          株式会社カルテットコミュニケーションズ<br>
+          クリーヴァ株式会社<br>
+          株式会社グラントホープ<br>
+          Modis株式会社<br>
+          INTLOOP株式会社<br>
+          Langdemy株式会社<br>
+          BOCジャパン合同会社
+        </li>
+        <li class="company_list_right">
+          株式会社アユザック<br>
+          株式会社HandAid<br>
+          株式会社J-Proach<br>
+          ラーメン協会<br>
+          株式会社おウチdeお肉<br>
+          株式会社LifeCoach<br>
+          株式会社スポーツ＆ライフイノベーション<br>
+          株式会社iGO<br>
+          株式会社エドモンド
+        </li>
+      </ul>
+      <p class="cautionary_note">（順不同、一部企業のみ掲載）</p>
+    </div>
   </section>
 
   <section class="time_schedule">
@@ -238,107 +262,118 @@
       <div class="guest_ditail">
         <img src="./img/ribbon.svg" class="ribbon" alt="#">
         <p class="time">10:00〜</p>
-        <div>
-          <img src="./img/guest-1.png" alt="#">
+        <div class="guest_ditail_flex">
+          <div>
+            <img class="guest_icon" src="./img/guest-1.png" alt="#">
+          </div>
+          <p class="guest_lecture">今、SNSを始めるなら</p>
         </div>
-        <p>今、SNSを始めるなら</p>
       </div>
       <div class="guest_ditail">
-        <div class="ribbon">
-          <p>11:00〜</p>
+        <img src="./img/ribbon.svg" class="ribbon" alt="#">
+        <p class="time">11:00〜</p>
+        <div class="guest_ditail_flex">
+          <div>
+            <img class="guest_icon" src="./img/guest-2.png" alt="#">
+          </div>
+          <p class="guest_lecture">会社員で出世する人と独立して成功する人の適正について</p>
         </div>
-        <div>
-          <img src="./img/guest-2.png" alt="#">
-        </div>
-        <p>会社員で出世する人と独立して成功する人の適正について</p>
       </div>
       <div class="guest_ditail">
-        <div class="ribbon">
-          <p>11:40〜</p>
+        <img src="./img/ribbon.svg" class="ribbon" alt="#">
+        <p class="time">11:40〜</p>
+        <div class="guest_ditail_flex">
+          <div>
+            <img class="guest_icon" src="./img/guest-3.png" alt="#">
+          </div>
+          <p class="guest_lecture">営業出身のフリーランスの生存戦略</p>
         </div>
-        <div>
-          <img src="./img/guest-3.png" alt="#">
-        </div>
-        <p>営業出身のフリーランスの生存戦略</p>
       </div>
       <div class="guest_ditail">
-        <div class="ribbon">
-          <p>12:20〜</p>
+        <img src="./img/ribbon.svg" class="ribbon" alt="#">
+        <p class="time">12:20〜</p>
+        <div class="guest_ditail_flex">
+          <div>
+            <img class="guest_icon" src="./img/guest-4.png" alt="#">
+          </div>
+          <p class="guest_lecture">無数のフリーランスに発注してわかった優秀な人の特徴</p>
         </div>
-        <div>
-          <img src="./img/guest-4.png" alt="#">
-        </div>
-        <p>無数のフリーランスに発注してわかった優秀な人の特徴</p>
       </div>
       <div class="guest_ditail">
-        <div class="ribbon">
-          <p>13:00〜</p>
+        <img src="./img/ribbon.svg" class="ribbon" alt="#">
+        <p class="time">13:00〜</p>
+        <div class="guest_ditail_flex">
+          <div>
+            <img class="guest_icon" src="./img/guest-5.png" alt="#">
+          </div>
+          <p class="guest_lecture">現役上場企業社長が語る 最新WEBマーケティング論</p>
         </div>
-        <div>
-          <img src="./img/guest-5.png" alt="#">
-        </div>
-        <p>現役上場企業社長が語る 最新WEBマーケティング論</p>
       </div>
       <div class="guest_ditail">
-        <div class="ribbon">
-          <p>13:40〜</p>
+        <img src="./img/ribbon.svg" class="ribbon" alt="#">
+        <p class="time">13:40〜</p>
+        <div class="guest_ditail_flex">
+          <div>
+            <img class="guest_icon" src="./img/guest-6.png" alt="#">
+          </div>
+          <p class="guest_lecture">月収300万円までのロードマップ</p>
         </div>
-        <div>
-          <img src="./img/guest-6.png" alt="#">
-        </div>
-        <p>月収300万円までのロードマップ</p>
       </div>
       <div class="guest_ditail">
-        <div class="ribbon">
-          <p>14:20〜</p>
+        <img src="./img/ribbon.svg" class="ribbon" alt="#">
+        <p class="time">14:20〜</p>
+        <div class="guest_ditail_flex">
+          <div>
+            <img class="guest_icon_3" src="./img/guest-7.png" alt="#">
+          </div>
+          <p class="guest_lecture">SNSを伸ばした先に見える世界</p>
         </div>
-        <div>
-          <img src="./img/guest-7.png" alt="#">
-        </div>
-        <p>SNSを伸ばした先に見える世界</p>
       </div>
       <div class="guest_ditail">
-        <div class="ribbon">
-          <p>15:00〜</p>
+        <img src="./img/ribbon.svg" class="ribbon" alt="#">
+        <p class="time">15:00〜</p>
+        <div class="guest_ditail_flex">
+          <div>
+            <img class="guest_icon" src="./img/guest-8.png" alt="#">
+          </div>
+          <p class="guest_lecture">元サイバーエージェント局長による広告業界の未来予想図</p>
         </div>
-        <div>
-          <img src="./img/guest-8.png" alt="#">
-        </div>
-        <p>元サイバーエージェント局長による広告業界の未来予想図</p>
       </div>
       <div class="guest_ditail">
-        <div class="ribbon">
-          <p>15:40〜</p>
+        <img src="./img/ribbon.svg" class="ribbon" alt="#">
+        <p class="time">15:40〜</p>
+        <div class="guest_ditail_flex">
+          <div>
+            <img class="guest_icon_2" src="./img/guest-9.png" alt="#">
+          </div>
+          <p class="guest_lecture">エンジニアとして独立し、年収3000万円を超える方法</p>
         </div>
-        <div>
-          <img src="./img/guest-9.png" alt="#">
-        </div>
-        <p>エンジニアとして独立し、年収3000万円を超える方法</p>
       </div>
       <div class="guest_ditail">
-        <div class="ribbon">
-          <p>16:20〜</p>
+        <img src="./img/ribbon.svg" class="ribbon" alt="#">
+        <p class="time">16:20〜</p>
+        <div class="guest_ditail_flex">
+          <div>
+            <img class="guest_icon" src="./img/guest-10.png" alt="#">
+          </div>
+          <p class="guest_lecture">累計300人以上、起業家を見て感じた成功法則</p>
         </div>
-        <div>
-          <img src="./img/guest-10.png" alt="#">
-        </div>
-        <p>累計300人以上、起業家を見て感じた成功法則</p>
       </div>
       <div class="guest_ditail">
-        <div class="ribbon">
-          <p>17:00〜</p>
+        <img src="./img/ribbon.svg" class="ribbon" alt="#">
+        <p class="time">17:00〜</p>
+        <div class="guest_ditail_flex">
+          <div>
+            <img class="guest_icon" src="./img/guest-11.png" alt="#">
+          </div>
+          <p class="guest_lecture">フリーランスにおすすめのM＆Aトレンドを紹介</p>
         </div>
-        <div>
-          <img src="./img/guest-11.png" alt="#">
-        </div>
-        <p>フリーランスにおすすめのM＆Aトレンドを紹介</p>
       </div>
-      <div class="guest_ditail">
-        <div class="ribbon">
-          <p>MC</p>
-        </div>
+      <div class="guest_ditail_MC">
+        <img src="./img/ribbon.svg" class="ribbon" alt="#">
+        <p class="MC">MC</p>
         <div>
-          <img src="./img/guest-12.png" alt="#">
+          <img class="guest_icon_MC" src="./img/guest-12.png" alt="#">
         </div>
       </div>
     </div>
