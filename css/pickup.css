@@ -1,4 +1,5 @@
 .pick_up{
+  display: none;
   margin: 0 auto;
   padding: 80px 0;
   text-align: center;
@@ -39,6 +40,7 @@
 }
 
 .about_exhibitors{
+  display: none;
   margin: 0 auto;
   padding: 80px 0;
   max-width: 960px;

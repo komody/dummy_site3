@@ -1,4 +1,5 @@
 .time_schedule{
+  display: none;
   background-image: url(../img/time_schedule_background.png);
   margin: 0 auto;
   padding: 40px 0;

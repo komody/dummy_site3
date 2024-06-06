@@ -45,16 +45,24 @@
 .event_summary .table{
   width: 100%;
   margin-top: 36px;
+  margin-bottom: 21px;
   text-align: left;
 }
 .event_summary .table .table_flex{
   padding-bottom: 15px;
   display: flex;
   justify-content: flex-start;
+  border-bottom: 0.5px dotted #C4C4C4;
+}
+
+.event_summary .table .table_flex.line_delete{
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: none;
 }
 
 .event_summary .table .table_flex .table_date{
-  border-bottom: 0.5px solid #C4C4C4;
   font-size: 22px;
   margin-top: 18px;
   font-weight: 700;
@@ -69,7 +77,6 @@
 }
 .event_summary .table .table_flex .table_date_contents{
   padding: 30px;
-  border-bottom: 0.5px solid #C4C4C4;
   font-size: 22px;
   font-weight: 700;
 }
@@ -79,22 +86,22 @@
 }
 
 .event_summary .table .table_flex .table_place{
-  border-bottom: 0.5px solid #C4C4C4;
   font-size: 22px;
-  margin-top: 18px;
+  margin-top: 35px;
   font-weight: 700;
   text-align: center;
 }
 .event_summary .table .table_flex .table_place p{
-  padding: 10px 42px;
+  padding: 10px 62px;
   color: #FDD35C;
   border: 2px solid #FDD35C;
   border-radius: 40px;
   display: block;
 }
 .event_summary .table .table_flex .table_place_contents{
+  margin-top: 18px;
+  margin-left: 5px;
   padding: 30px;
-  border-bottom: 0.5px solid #C4C4C4;
   font-size: 22px;
   font-weight: 700;
 }
@@ -104,14 +111,13 @@
 }
 
 .event_summary .table .table_flex .table_deteal{
-  border-bottom: 0.5px solid #C4C4C4;
   font-size: 22px;
-  margin-top: 18px;
+  margin-top: 34px;
   font-weight: 700;
   text-align: center;
 }
 .event_summary .table .table_flex .table_deteal p{
-  padding: 10px 42px;
+  padding: 10px 20px;
   color: #FDD35C;
   border: 2px solid #FDD35C;
   border-radius: 40px;
@@ -119,9 +125,9 @@
 }
 .event_summary .table .table_flex .table_deteal_contents{
   padding: 30px;
-  border-bottom: 0.5px solid #C4C4C4;
   font-size: 22px;
   font-weight: 700;
+  margin-top: 17px;
 }
 .event_summary .table .table_flex .table_deteal_contents p{
   margin-left: -11px;
@@ -129,24 +135,24 @@
 }
 
 .event_summary .table .table_flex .table_terget{
-  border-bottom: 0.5px solid #C4C4C4;
   font-size: 22px;
-  margin-top: 18px;
+  margin-top: 32px;
   font-weight: 700;
   text-align: center;
 }
 .event_summary .table .table_flex .table_terget p{
-  padding: 10px 42px;
+  padding: 10px 51px;
   color: #FDD35C;
   border: 2px solid #FDD35C;
   border-radius: 40px;
   display: block;
 }
 .event_summary .table .table_flex .table_terget_contents{
-  padding: 30px;
-  border-bottom: 0.5px solid #C4C4C4;
+  padding: 30px 10px;
   font-size: 22px;
   font-weight: 700;
+  margin-top: 12px;
+  margin-left: 22px;
 }
 .event_summary .table .table_flex .table_terget_contents p{
   margin-left: -11px;
@@ -154,9 +160,8 @@
 }
 
 .event_summary .table .table_flex .table_access{
-  border-bottom: 0.5px solid #C4C4C4;
   font-size: 22px;
-  margin-top: 18px;
+  margin-top: 35px;
   font-weight: 700;
   text-align: center;
 }
@@ -168,26 +173,61 @@
   display: block;
 }
 .event_summary .table .table_flex .table_access_contents{
-  padding: 30px;
-  border-bottom: 0.5px solid #C4C4C4;
+  width: 400px;
+  padding: 30px 4px;
   font-size: 22px;
   font-weight: 700;
 }
 .event_summary .table .table_flex .table_access_contents p{
-  margin-left: -11px;
+  margin-top: 13px;
+  margin-left: 15px;
   letter-spacing: 0px;
 }
 
-.event_summary .table .table_flex .table_access_contents li{
-  color: #FDD35C;
+.event_summary .table .table_flex .table_access_contents .list_flex_JR{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 26px;
 }
-.event_summary .table .table_flex .table_access_contents span{
+
+.event_summary .table .table_flex .table_access_contents .list_flex_JR img{
+  margin-top: 8px;
+  margin-left: -10px;
+  height: 10px;
+}
+.event_summary .table .table_flex .table_access_contents .list_flex_JR .root{
   color: #444545;
   font-weight: 500;
   font-size: 14px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+.event_summary .table .table_flex .table_access_contents .list_flex_metoro{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 4px;
+  margin-top: 3px;
+}
+.event_summary .table .table_flex .table_access_contents .list_flex_metoro img{
+  margin-top: 9px;
+  margin-left: 10px;
+  height: 10px;
 }
 
-.event_summary .table .table_flex .mobile_size{
+.event_summary .table .table_flex .table_access_contents .list_flex_metoro .root{
+  color: #444545;
+  font-weight: 500;
+  font-size: 14px;
+  width: 370px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.event_summary .table .table_flex .pc_size{
+  margin-top: 41px;
+  margin-left: 8px;
+}
+.event_summary .table .mobile_size{
   display: none;
 }
 
@@ -216,3 +256,154 @@
   letter-spacing: 0px;
 }
 
+@media screen and (max-width: 1100px){
+  .event_summary{
+    padding: 10px 0;
+  }
+  .event_summary h2{
+    font-size: 26px;
+    margin-top: 13px;
+  }
+  .event_summary .sub_title{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: -3px;
+  }
+  .event_summary .sub_title:before,
+  .event_summary .sub_title:after{
+    height: 0.67px;
+    width: 20px;
+  }
+  .event_summary .sub_title:before{
+    left: 9px;
+  }
+  .event_summary .sub_title:after{
+    right: 9px;
+  }
+
+  .event_summary .table .table_flex{
+    padding-bottom: 8px;
+  }
+  .event_summary .table .table_flex .table_date{
+  font-size: 15px;
+  margin-top: -8px;
+  width: 35%;
+  }
+
+  .event_summary .table .table_flex .table_date p{
+    padding: 3px 0;
+    border: 1.24px solid #FDD35C;
+    border-radius: 40px;
+    display: block;
+  }
+  .event_summary .table .table_flex .table_date_contents{
+    width: 70%;
+    font-size: 14px;
+    padding: 0;
+    margin-top: -12px;
+    margin-left: 30px;
+    line-height: 29px;
+  }
+  .event_summary .table .table_flex .table_date_contents p{
+    margin-left: -11px;
+    letter-spacing: 0px;
+  }
+
+  .event_summary .table .table_flex .table_place{
+    font-size: 15px;
+    margin-top: 8px;
+    width: 31%;
+  }
+  .event_summary .table .table_flex .table_place p{
+    padding: 3px;
+    border: 1.24px solid #FDD35C;
+    border-radius: 40px;
+    display: block;
+  }
+  .event_summary .table .table_flex .table_place_contents{
+    padding: 0;
+    margin-top: 14px;
+    margin-left: 29px;
+    font-size: 14px;
+  }
+  .event_summary .table .table_flex .table_place_contents p{
+    margin-left: -11px;
+    letter-spacing: 0px;
+  }
+
+  .event_summary .table .table_flex .table_deteal{
+    font-size: 15px;
+    margin-top: 12px;
+  }
+  .event_summary .table .table_flex .table_deteal p{
+    padding: 3px 10px;
+    border: 1.24px solid #FDD35C;
+  }
+  .event_summary .table .table_flex .table_deteal_contents{
+    padding: 0;
+    font-size: 14px;
+    margin-top: 17px;
+    margin-left: 30px;
+  }
+  .event_summary .table .table_flex .table_deteal_contents p{
+    margin-left: -11px;
+    letter-spacing: 0px;
+  }
+
+  .event_summary .table .table_flex .table_terget{
+    font-size: 15px;
+    margin-top: 13px;
+    width: 35%;
+  }
+  .event_summary .table .table_flex .table_terget p{
+    padding: 3px 10px;
+    color: #FDD35C;
+    border: 1.24px solid #FDD35C;
+  }
+  .event_summary .table .table_flex .table_terget_contents{
+    padding: 0;
+    font-size: 14px;
+    margin-top: 18px;
+    margin-left: 33px;
+    line-height: 26px;
+  }
+  .event_summary .table .table_flex .table_terget_contents p{
+    margin-left: -11px;
+    letter-spacing: 0px;
+  }
+
+  .event_summary .table .table_flex .table_access{
+    font-size: 15px;
+    margin-top: 8px;
+    width: 31%;
+  }
+  .event_summary .table .table_flex .table_access p{
+    padding: 3px 5px;
+    color: #FDD35C;
+    border: 1.24px solid #FDD35C;
+    border-radius: 40px;
+  }
+  .event_summary .table .table_flex .table_access_contents{
+    width: 67%;
+    margin-left: -6px;
+    padding: 4px;
+    font-size: 14px;
+  }
+  .event_summary .table .table_flex .table_access_contents p{
+    margin-top: 13px;
+    margin-left: 15px;
+    letter-spacing: 0px;
+  }
+  .event_summary .table .table_flex .table_access_contents ul{
+    margin-left: -8px;
+  }
+  
+  .event_summary .table .table_flex .pc_size{
+    display: none;
+  }
+
+  .event_summary .table .mobile_size{
+  display: block;
+  margin-top: 7px;
+  }
+}

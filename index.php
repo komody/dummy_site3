@@ -52,12 +52,14 @@
   </section>
   
   <div class="freelance_polygon">
-    <section class="freelance_summit">
-        <h2>Freelance Summit</h2>
-        <p class="sub_title">フリーランスサミットとは？</p>
-        <p class="what_freelance_summit">「FREELANCE SUMMIT」は、StockSun株式会社が主催する<br>日本最大規模のフリーランスイベントです。</p>
-        <p class="freelance_summit_overview">各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する40ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。</p>
-    </section>
+    <div class="freelance_polygon_mobile">
+      <section class="freelance_summit">
+          <h2>Freelance Summit</h2>
+          <p class="sub_title">フリーランスサミットとは？</p>
+          <p class="what_freelance_summit">「FREELANCE SUMMIT」は、StockSun株式会社が主催する<br>日本最大規模のフリーランスイベントです。</p>
+          <p class="freelance_summit_overview">各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する40ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。</p>
+      </section>
+    </div>
 
     <section class="event_summary">
       <h2>Event Summary</h2>
@@ -95,21 +97,23 @@
             <p>経営者 / フリーランス / 独立志望の会社員</p>
           </div>
         </div>
-        <div class="table_flex">
+        <div class="table_flex line_delete">
           <div class="table_access">
             <p>アクセス</p>
           </div>
           <div class="table_access_contents">
             <p>【最寄駅】</p>
             <ul>
-              <li>
-                <span>
+              <li class="list_flex_JR">
+                <img src="./img/event_Ellipse.png" alt="#">
+                <p class="root">
                   JR<br>
                   有楽町駅より徒歩1分<br>東京駅より徒歩5分
-                </span>
+                </p>
               </li>
-              <li>
-                <span>
+              <li class="list_flex_metoro">
+                <img src="./img/event_Ellipse.png" alt="#">
+                <p class="root">
                   地下鉄<br>
                   有楽町線 ： 有楽町駅(B1F地下コンコースにて連絡）<br>
                   千代田線 ： 二重橋前駅より徒歩5分/日比谷駅より徒歩7分<br>
@@ -117,16 +121,16 @@
                   銀座線 ： 銀座駅より徒歩7分/京橋駅より徒歩7分
                   <br>
                   三田線 ： 日比谷駅より徒歩5分
-                </span>
+                </p>
               </li>
             </ul>
           </div>
           <div class="pc_size">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.01034651108!2d139.76117827629125!3d35.67674723021949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfabc68fde1%3A0xc4ca6a002ded263d!2z5p2x5Lqs5Zu96Zqb44OV44Kp44O844Op44Og!5e0!3m2!1sja!2sjp!4v1717606547863!5m2!1sja!2sjp" style="width: 380px; height: 235px;border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <div class="mobile_size">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.01034651108!2d139.76117827629125!3d35.67674723021949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfabc68fde1%3A0xc4ca6a002ded263d!2z5p2x5Lqs5Zu96Zqb44OV44Kp44O844Op44Og!5e0!3m2!1sja!2sjp!4v1717606547863!5m2!1sja!2sjp" style="width: 345px; height: 200px;border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
+        </div>
+        <div class="mobile_size">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.01034651108!2d139.76117827629125!3d35.67674723021949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfabc68fde1%3A0xc4ca6a002ded263d!2z5p2x5Lqs5Zu96Zqb44OV44Kp44O844Op44Og!5e0!3m2!1sja!2sjp!4v1717606547863!5m2!1sja!2sjp" style="width: 345px; height: 200px;border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>
@@ -141,23 +145,23 @@
           <p class="contents_overview_title">フリーランスに特化した企業エリア</p>
           <div class="bg_white">
             <p>出会いたい企業にきっと出会える</p>
-            <img src="./img/contents_line.svg" alt="#">
+            <img class="blue_line" src="./img/contents_line.svg" alt="#">
             <p class="contents_overview_detail">
               <span>60</span>
               ブースの企業エリア
             </p>
-            <img src="./img/contents-1.png" alt="#">
+            <img class="contents_overview_photo" src="./img/contents-1.png" alt="#">
           </div>
         </div>
         <div class="contents_overview">
           <p class="contents_overview_title">各業界の著名人が登壇</p>
           <div class="bg_white">
             <p>ここでしか聞けない話が聞ける</p>
-            <img src="./img/contents_line.svg" alt="#">
+            <img class="blue_line" src="./img/contents_line.svg" alt="#">
             <p class="contents_overview_detail">
               豪華セミナーを開催
             </p>
-            <img src="./img/contents-2.png" alt="#">
+            <img class="contents_overview_photo" src="./img/contents-2.png" alt="#">
           </div>
         </div>
       </div>
