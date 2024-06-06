@@ -73,8 +73,8 @@
   
   .freelance_polygon_mobile{
     background-image: url(../img/freelance_summit_polygon_mobile.svg);
-    background-size: unset;
-    background-position: unset;
+    background-size: cover;
+    background-position: center;
     margin-top: -27px;
   }
   .freelance_summit{

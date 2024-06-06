@@ -334,6 +334,7 @@
   .event_summary .table .table_flex .table_deteal{
     font-size: 15px;
     margin-top: 12px;
+    width: 31%;
   }
   .event_summary .table .table_flex .table_deteal p{
     padding: 3px 10px;
@@ -344,6 +345,7 @@
     font-size: 14px;
     margin-top: 17px;
     margin-left: 30px;
+    width: 55%;
   }
   .event_summary .table .table_flex .table_deteal_contents p{
     margin-left: -11px;

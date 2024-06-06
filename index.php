@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="./css/timeSchedule.css">
   <link rel="stylesheet" href="./css/faq.css">
   <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/side_line.css">
+  <link rel="stylesheet" href="./css/bottom_line.css">
 </head>
 
 <body>
@@ -416,12 +418,28 @@
 
   <section class="footer">
       <button>出展希望企業はこちら</button>
-      <!-- <hr class="footer_hr"> -->
+      <hr class="footer_hr">
       <div class="footer_flex">
         <p class="footer_flex_left">運営会社</p>
         <img src="./img/footer_logo.png" alt="#">
         <p class="footer_flex_right">個人情報保護方針</p>
       </div>
   </section>
+
+  <section>
+    <a href="#" class="sidebar">申し込みはこちら<img src="./img/LINE_Brand_icon 1.png" alt="#"></a>
+  </section>
+
+  <section>
+    <div class="line_button_bg">
+      <div class="bottom_line">
+        <a class="bottom_line_button" href="#">
+          <p>事前申し込みはこちら(無料)</p>
+          <img src="./img/LINE_Brand_icon 1.png" alt="#">
+        </a>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>

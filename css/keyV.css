@@ -83,6 +83,8 @@ body{
     padding: 10px 10px 0 10px;
     text-align: center;
     background-image: url(../img/mobile_bg.png);
+    background-size: cover;
+    background-position: center;
     height: 462px;
   }
 
