@@ -1,0 +1,125 @@
+.contents{
+  margin: 0 auto;
+  padding: 80px 0;
+  text-align: center;
+  background-color: #FFF6DE;
+}
+
+.contents h2{
+  font-family: 'Roboto', sans-serif;
+  margin-top: -4px;
+  color: #FDD35C;
+  font-style: italic;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.contents .sub_title{
+  padding: 0 50px;
+  margin-top: 8px;
+  margin-left: -11px;
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+}
+.contents .sub_title:before,
+.contents .sub_title:after{
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+}
+.contents .sub_title:before{
+  left: 0;
+}
+.contents .sub_title:after{
+  right: 1px;
+}
+
+.contents .contents_flex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 23px;
+  margin-bottom: 15px;
+}
+
+.contents .contents_flex .contents_overview{
+  width: 46%;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 3px solid #FDD35C;
+  color: #444545;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contents .contents_flex .contents_overview .contents_overview_title{
+  padding: 8px 0;
+  background-color: #FDD35C;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.contents .contents_flex .contents_overview .bg_white{
+  background-color: #FFF;
+  padding: 15px 0 20px 0;
+  border-radius: 10px;
+}
+
+.contents .contents_flex .contents_overview .contents_overview_detail{
+  color: #FDD35C;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.contents .contents_flex .contents_overview .contents_overview_detail span{
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.contents .contents_line{
+  margin: 40px auto 0 auto;
+  display: inline-block;
+}
+
+.contents .contents_line .contents_line_button{
+  margin: 0 auto;
+  align-items: center;
+  display: ruby-text;
+  width: 420px;
+  height: 60px;
+  padding-left: 5px;
+  border: #FFF solid 2px;
+  border-radius: 40px;
+  background-color: #06C755;
+  font-size: 24px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.contents .contents_line .contents_line_button p{
+  padding: 10px;
+  padding-right: 0;
+}
+
+.contents .wrapper .contents_line .contents_line_button img{
+  width: 57px;
+}
+
+@media screen and (max-width: 500px){
+  .contents{}
+
+  .contents .contents_line{
+    display: none;
+  }
+}

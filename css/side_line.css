@@ -1,0 +1,17 @@
+.sidebar{
+  position: fixed;
+  width: 65px;
+  height: 303px;
+  background-color: #06C755;
+  color: #FFF;
+  margin: auto 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 22px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+}

@@ -1,0 +1,104 @@
+.pick_up{
+  margin: 0 auto;
+  padding: 80px 0;
+  text-align: center;
+  border-left: 50px solid #FDD35C;
+  border-right: 50px solid #FDD35C;
+}
+
+.pick_up h2{
+  font-family: 'Roboto', sans-serif;
+  color: #FDD35C;
+  font-style: italic;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.pick_up .sub_title{
+  padding: 0 50px;
+  margin-top: 10px;
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+}
+.pick_up .sub_title:before,
+.pick_up .sub_title:after{
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+}
+.pick_up .sub_title:before{
+  left: 0;
+}
+.pick_up .sub_title:after{
+  right: 7px;
+}
+
+.about_exhibitors{
+  margin: 0 auto;
+  padding: 80px 0;
+  max-width: 960px;
+  width: 90%;
+  text-align: center;
+}
+
+.about_exhibitors h2{
+  font-family: 'Roboto', sans-serif;
+  color: #81D7FC;
+  font-style: italic;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.about_exhibitors .sub_title{
+  padding: 0 50px;
+  margin-top: 10px;
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+}
+.about_exhibitors .sub_title:before,
+.about_exhibitors .sub_title:after{
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+}
+.about_exhibitors .sub_title:before{
+  left: 0;
+}
+.about_exhibitors .sub_title:after{
+  right: 7px;
+}
+
+.about_exhibitors .company_list{
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin-top: 93px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.0;
+}
+
+.about_exhibitors .company_list li{
+  width: 50%;
+}
+.about_exhibitors .company_list .company_list_right{
+  margin-left: 90px;
+}
+
+
+.about_exhibitors .cautionary_note{
+  text-align: right;
+  margin-top: 26px;
+  font-size: 20px;
+  font-weight: 500;
+}

@@ -1,0 +1,65 @@
+.freelance_polygon{
+  background-image: url(../img/freelance_polygon.svg);
+  background-size: cover;
+  background-position: center;
+  margin-top: -17px;
+}
+
+.freelance_summit{
+  margin: 0 auto 80px auto;
+  padding: 40px 0;
+  width: 90%;
+  max-width: 960px;
+  text-align: center;
+}
+
+.freelance_summit h2{
+  font-family: 'Roboto', sans-serif;
+  color: #81D7FC;
+  font-style: italic;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: -1px;
+}
+
+.freelance_summit .sub_title{
+  padding: 0 50px;
+  margin-top: 10px;
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+}
+.freelance_summit .sub_title:before,
+.freelance_summit .sub_title:after{
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+}
+.freelance_summit .sub_title:before{
+  left: 0;
+}
+.freelance_summit .sub_title:after{
+  right: 7px;
+}
+
+.freelance_summit .what_freelance_summit{
+  font-weight: 700;
+  margin-top: 56px;
+  font-size: 22px;
+  line-height: 2.1;
+}
+
+.freelance_summit_overview{
+  text-align: left;
+  margin-top: 38px;
+  font-size: 18px;
+  line-height: 2.5;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 400px){}

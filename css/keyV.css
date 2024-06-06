@@ -1,0 +1,119 @@
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.wrapper{
+  max-width: 960px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.key_visual_mobile{
+  display: none;
+}
+
+.key_visual{
+  background-image: url(../img/kv_bg.png);
+  background-size: cover;
+  background-position: center;
+  padding: 14px 40px 60px 40px;
+  color: #FFF;
+  height: 841.11px;
+}
+
+.key_visual .sub_title{
+  margin-top: 33.5px;
+  margin-left: -5px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.key_visual .title{
+  margin-top: 42px;
+}
+
+.key_visual .key_visual_date{
+  margin-top: 18px;
+  margin-left: -4px;
+}
+.key_visual .key_visual_plase{
+  margin-top: -16px;
+  font-weight: 700;
+  font-size: 29.19px;
+}
+.key_visual .wrapper .key_visual_line{
+  margin: 40px auto 0 auto;
+  display: inline-block;
+}
+
+.key_visual .wrapper .key_visual_line .key_visual_line_button{
+  margin: 0 auto;
+  align-items: center;
+  display: ruby-text;
+  width: 420px;
+  height: 60px;
+  padding-left: 5px;
+  border: #FFF solid 2px;
+  border-radius: 40px;
+  background-color: #06C755;
+  font-size: 24px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.key_visual .wrapper .key_visual_line .key_visual_line_button p{
+  padding: 10px;
+  padding-right: 0;
+}
+
+.key_visual .wrapper .key_visual_line .key_visual_line_button img{
+  width: 57px;
+}
+
+@media screen and (max-width: 500px){
+  .key_visual{
+    display: none;
+  }
+
+  .key_visual_mobile{
+    display: block;
+    color: #FFF;
+    font-weight: 700;
+    padding: 10px 10px 0 10px;
+    text-align: center;
+    background-image: url(../img/mobile_bg.png);
+    height: 462px;
+  }
+
+  .key_visual_mobile h1{
+    text-align: left;
+    margin-left: 2px;
+  }
+
+  .key_visual_mobile .sub_title{
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+  .key_visual_mobile .title{
+    margin-top: 23px;
+  }
+  
+  .key_visual_mobile .sponsored{
+    margin-top: 15px;
+  }
+  .key_visual_mobile .key_visual_date{
+    margin-top: 21px;
+    margin-left: -3px;
+  }
+
+  .key_visual_mobile .key_visual_plase{
+    font-size: 15.88px;
+    margin-top: -8px;
+  }
+
+
+
+
+}

@@ -1,0 +1,89 @@
+.faq{
+  margin: 0 auto;
+  padding: 80px 0 110px;  
+  max-width: 960px;
+  width: 90%;
+  text-align: center;
+}
+
+.faq h2{
+  font-family: 'Roboto', sans-serif;
+  color: #FDD35C;
+  font-style: italic;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.faq .sub_title{
+  padding: 0 50px;
+  margin-top: 10px;
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+}
+.faq .sub_title:before,
+.faq .sub_title:after{
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+}
+.faq .sub_title:before{
+  left: 0;
+}
+.faq .sub_title:after{
+  right: 7px;
+}
+
+.faq dl{
+  margin-top: 71px;
+  margin-left: 100px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.faq dl dt{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+}
+.faq dl dt .faq_q{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -3px;
+  margin-right: 11px;
+  width: 33px;
+  height: 33px;
+  color: #FFF;
+  background-color: #00A8F0;
+  border-radius: 50%;
+  font-weight: 300;
+}
+
+.faq dl dd{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 45px;
+}
+
+.faq dl dd .faq_a{
+  margin-right: 11px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33px;
+  height: 33px;
+  color: #FFF;
+  background-color: #FDD35C;
+  border-radius: 50%;
+  font-weight: 300;
+}
+
+.faq dl dd .faq_a_contents{
+  margin-top: 2.5px;
+}
