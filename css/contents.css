@@ -109,12 +109,13 @@
 }
 
 .contents .contents_line .contents_line_button p{
-  padding: 10px;
+  padding: 7px 0 11px;
   padding-right: 0;
 }
 
 .contents .wrapper .contents_line .contents_line_button img{
   width: 57px;
+  height: 54px;
 }
 
 @media screen and (max-width: 950px){

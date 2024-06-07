@@ -194,6 +194,18 @@
   font-size: 20px;
   font-weight: 500;
 }
+@media screen and (max-width: 1000px){
+  .about_exhibitors .company_list{
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .about_exhibitors .company_list li{
+    width: 100%;
+  }
+  .about_exhibitors .company_list .company_list_right{
+  margin-left: 0;
+ }
+}
 
 @media screen and (max-width: 600px){
   .pick_up{
@@ -337,22 +349,11 @@
   }
 
   .about_exhibitors .company_list{
-    display: flex;
-    justify-content: space-around;
-    text-align: left;
+    text-align: center;
     margin-top: 20px;
     font-size: 14px;
-    font-weight: 500;
     line-height: 2.0;
   }
-
-  .about_exhibitors .company_list li{
-    width: 50%;
-  }
-  .about_exhibitors .company_list .company_list_right{
-    margin-left: 20px;
-  }
-
 
   .about_exhibitors .cautionary_note{
     font-size: 14px;

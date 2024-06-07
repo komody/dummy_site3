@@ -54,7 +54,7 @@
   width: 300px;
   height: 254px;
   border-radius: 5px;
-  padding: 0 20px;
+  padding: 0 10px;
   margin: 30px auto 0;
   position: relative;
 }
@@ -100,9 +100,8 @@
   height: 136px;
 }
 .time_schedule .guest_icon_3{
-  margin-top: 30px;
+  margin-top: 40px;
   width: 280px;
-  height: 125px;
 }
 .time_schedule .guest_icon_2{
   margin-top: 30px;
