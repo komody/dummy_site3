@@ -88,6 +88,11 @@
   font-weight: 600;
 }
 
+.contents .contents_flex .contents_overview .contents_overview_photo{
+  width: 340px;
+  height: 180px;
+}
+
 .contents .contents_line{
   margin: 40px auto 0 auto;
   display: inline-block;
@@ -162,6 +167,7 @@
 
   .contents .contents_flex .contents_overview .contents_overview_detail{
     font-size: 21.49px;
+    margin-top: -4px;
   }
   
   .contents .contents_flex .contents_overview .contents_overview_detail span{
