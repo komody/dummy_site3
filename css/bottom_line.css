@@ -34,9 +34,11 @@
 
   .bottom_line .bottom_line_button p{
     margin-left: 21px;
+    margin-bottom: 4px;
   }
 
   .bottom_line .bottom_line_button img{
     width: 46px;
+    height: 46px;
   }
 }

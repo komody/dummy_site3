@@ -67,12 +67,13 @@ body{
 }
 
 .key_visual .wrapper .key_visual_line .key_visual_line_button p{
-  padding: 10px;
+  padding: 7px 0 11px;
   padding-right: 0;
 }
 
 .key_visual .wrapper .key_visual_line .key_visual_line_button img{
   width: 57px;
+  height: 54px;
 }
 
 @media screen and (max-width: 500px){

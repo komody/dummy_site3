@@ -430,7 +430,9 @@
   </section>
 
   <section>
-    <a href="#" class="sidebar">申し込みはこちら<img src="./img/LINE_Brand_icon 1.png" alt="#"></a>
+    <a href="#" class="sidebar">
+      <p>申し込みはこちら</p>
+      <img src="./img/LINE_Brand_icon 1.png" alt="#"></a>
   </section>
 
   <section>
