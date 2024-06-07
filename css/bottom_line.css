@@ -3,10 +3,6 @@
 }
 
 @media screen and (max-width: 500px){
-  body{
-    padding-bottom: 80px;
-  }
-
   .line_button_bg{
     width: 100%;
     background-color: rgba(251, 251, 254, 0.5);
