@@ -260,7 +260,7 @@
   <section class="time_schedule">
     <h2>Time Schedule</h2>
     <p class="sub_title">タイムスケジュール</p>
-    <div class="guest_list">
+    <div class="guest_list hidden">
       <div class="guest_ditail">
         <img src="./img/ribbon.svg" class="ribbon" alt="#">
         <p class="time">10:00〜</p>
@@ -281,7 +281,7 @@
           <p class="guest_lecture">会社員で出世する人と独立して成功する人の適正について</p>
         </div>
       </div>
-      <div class="guest_ditail">
+      <div class="guest_ditail hidden">
         <img src="./img/ribbon.svg" class="ribbon" alt="#">
         <p class="time">11:40〜</p>
         <div class="guest_ditail_flex">
@@ -379,6 +379,9 @@
         </div>
       </div>
     </div>
+    <div class="read_more">
+      <p class="read_more_button">Read more</p>
+    </div>
   </section>
 
   <section class="faq">
@@ -441,5 +444,7 @@
     </div>
   </section>
 
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 </html>
