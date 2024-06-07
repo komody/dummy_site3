@@ -21,6 +21,10 @@ body{
   color: #FFF;
   height: 841.11px;
 }
+.key_visual h1 img{
+  width: 188px;
+  height: 50px;
+}
 
 .key_visual .sub_title{
   margin-top: 33.5px;
@@ -87,10 +91,14 @@ body{
     background-position: center;
     height: 462px;
   }
-
+  
   .key_visual_mobile h1{
     text-align: left;
     margin-left: 2px;
+  }
+  .key_visual_mobile h1 img{
+    width: 77px;
+    height: 20px;
   }
 
   .key_visual_mobile .sub_title{
