@@ -1,3 +1,9 @@
+.faq_polygon{
+  background-image: url(../img/faq_polygon.png);
+  background-repeat: no-repeat;
+  background-position-y: 364px;
+}
+
 .faq{
   margin: 0 auto;
   padding: 80px 0 110px;  
@@ -90,6 +96,10 @@
 }
 
 @media screen and (max-width: 550px){
+  .faq_polygon{
+    background-image: none;
+  }
+  
   .faq{
     margin: 0 auto;
     padding: 0 0 40px;  

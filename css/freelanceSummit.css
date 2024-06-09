@@ -1,7 +1,9 @@
 .freelance_polygon{
   background-image: url(../img/freelance_polygon.svg);
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
   margin-top: -17px;
 }
 .freelance_polygon_mobile{
@@ -71,12 +73,6 @@
     background-image: none;
   }
   
-  .freelance_polygon_mobile{
-    background-image: url(../img/freelance_summit_polygon_mobile.svg);
-    background-size: cover;
-    background-position: center;
-    margin-top: -27px;
-  }
   .freelance_summit{
     margin: 0 auto 10px auto;
     padding: 40px 0 0;
@@ -108,5 +104,16 @@
     margin: 21px auto 0 auto;
     width: 300px;
     line-height: 37px;
+  }
+}
+
+@media screen and (max-width: 390px){
+  .freelance_polygon_mobile{
+    background-image: url(../img/freelance_summit_polygon_mobile.svg);
+    background-size: contain;
+    background-position: center;
+    background-position-y: -3px;
+    background-repeat: no-repeat;
+    margin-top: -26px;
   }
 }

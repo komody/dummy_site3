@@ -334,7 +334,7 @@
   .event_summary .table .table_flex .table_deteal{
     font-size: 14px;
     margin-top: 12px;
-    width: 35%;
+    width: 31%;
   }
   .event_summary .table .table_flex .table_deteal p{
     padding: 3px 10px;
@@ -407,5 +407,12 @@
   .event_summary .table .mobile_size{
   display: block;
   margin-top: 7px;
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 370px){
+  .event_summary .table .table_flex .table_deteal{
+    width: 35%;
   }
 }

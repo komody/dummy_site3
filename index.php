@@ -132,7 +132,7 @@
           </div>
         </div>
         <div class="mobile_size">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.01034651108!2d139.76117827629125!3d35.67674723021949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfabc68fde1%3A0xc4ca6a002ded263d!2z5p2x5Lqs5Zu96Zqb44OV44Kp44O844Op44Og!5e0!3m2!1sja!2sjp!4v1717606547863!5m2!1sja!2sjp" style="width: 345px; height: 200px;border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.01034651108!2d139.76117827629125!3d35.67674723021949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfabc68fde1%3A0xc4ca6a002ded263d!2z5p2x5Lqs5Zu96Zqb44OV44Kp44O844Op44Og!5e0!3m2!1sja!2sjp!4v1717606547863!5m2!1sja!2sjp" style="width: 97%; max-width: 600px; height: 200px;border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </section>
@@ -383,41 +383,43 @@
       <p class="read_more_button">Read more</p>
     </div>
   </section>
-
-  <section class="faq">
-    <h2>FAQ</h2>
-    <p class="sub_title">よくある質問</p>
-    <dl>
-      <dt>
-        <p class="faq_q">Q</p>
-        <p class="faq_q_contents">再入場はできますか？</p>
-      </dt>
-      <dd>
-        <p class="faq_a">A</p>
-        <p class="faq_a_contents">できます。</p>
-      </dd>
-      <dt>
-        <p class="faq_q">Q</p>
-        <p class="faq_q_contents">入場にお金はかかりますか？</p>
-      </dt>
-      <dd>
-        <p class="faq_a">A</p>
-        <p class="faq_a_contents">一切かかりません。</p>
-      </dd>
-      <dt>
-        <p class="faq_q">Q</p>
-        <p class="faq_q_contents">出展を希望する企業はどこから問い合わせれば良いですか？</p>
-      </dt>
-      <dd>
-        <p class="faq_a">A</p>
-        <p class="faq_a_contents"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform">こちら</a>からお願いします。</p>
-      </dd>
-      <!-- <dt><p>入場にお金はかかりますか？</p></dt>
-      <dd><p>一切かかりません。</p></dd>
-      <dt><p>出展を希望する企業はどこから問い合わせれば良いですか？</p></dt>
-      <dd><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform">こちら</a>からお願いします。</p></dd> -->
-    </dl>
-  </section>
+  
+  <div class="faq_polygon">
+    <section class="faq">
+      <h2>FAQ</h2>
+      <p class="sub_title">よくある質問</p>
+      <dl>
+        <dt>
+          <p class="faq_q">Q</p>
+          <p class="faq_q_contents">再入場はできますか？</p>
+        </dt>
+        <dd>
+          <p class="faq_a">A</p>
+          <p class="faq_a_contents">できます。</p>
+        </dd>
+        <dt>
+          <p class="faq_q">Q</p>
+          <p class="faq_q_contents">入場にお金はかかりますか？</p>
+        </dt>
+        <dd>
+          <p class="faq_a">A</p>
+          <p class="faq_a_contents">一切かかりません。</p>
+        </dd>
+        <dt>
+          <p class="faq_q">Q</p>
+          <p class="faq_q_contents">出展を希望する企業はどこから問い合わせれば良いですか？</p>
+        </dt>
+        <dd>
+          <p class="faq_a">A</p>
+          <p class="faq_a_contents"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform">こちら</a>からお願いします。</p>
+        </dd>
+        <!-- <dt><p>入場にお金はかかりますか？</p></dt>
+        <dd><p>一切かかりません。</p></dd>
+        <dt><p>出展を希望する企業はどこから問い合わせれば良いですか？</p></dt>
+        <dd><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform">こちら</a>からお願いします。</p></dd> -->
+      </dl>
+    </section>
+  </div>
 
   <section class="footer">
       <button>出展希望企業はこちら</button>
