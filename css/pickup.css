@@ -133,8 +133,11 @@
 
 .about_exhibitors{
   background-image: url(../img/about_polygon.svg);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-position-x: -18px;
+  background-position-y: -28px;
+  background-repeat: no-repeat;
   margin: 0 auto;
   padding: 20px 0;
   text-align: center;
@@ -327,9 +330,7 @@
   }
 
   .about_exhibitors{
-    background-image: url(../img/about_polygon_mobile.svg);
-    background-size: cover;
-    background-position: center;
+    background-image: none;
   }
 
   .about_exhibitors h2{
@@ -346,10 +347,11 @@
     width: 20px;
   }
   .about_exhibitors .sub_title:before{
-    left: -6px;
+    left: 14px;
   }
+  
   .about_exhibitors .sub_title:after{
-    right: -9px;
+    right: 22px;
   }
 
   .about_exhibitors .company_list{
@@ -361,5 +363,14 @@
 
   .about_exhibitors .cautionary_note{
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 390px){
+  .about_exhibitors{
+    background-image: url(../img/about_polygon_mobile.svg);
+    background-size: 390px 800px;
+    background-position: center;
+    background-position-y: -229px;
   }
 }
